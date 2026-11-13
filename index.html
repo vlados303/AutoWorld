@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoWorld - Lumea automobilelor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">Auto<span>World</span></h1>
+
+            <nav>
+                <a href="#home">Acasă</a>
+                <a href="#catalog">Catalog</a>
+                <a href="#about">Despre noi</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Descoperă lumea automobilelor</h2>
+            <p>Eleganță, performanță și tehnologie într-un singur loc.</p>
+            <a href="#catalog" class="btn">Vezi catalogul</a>
+        </div>
+    </section>
+
+    <section class="catalog container" id="catalog">
+        <h2>Catalog automobile</h2>
+        <p class="section-description">Descoperă modelele preferate.</p>
+
+        <div class="cars">
+
+            <div class="car-card">
+                <img src="assets/img/bmw.jpg" alt="Automobil BMW">
+                <div class="car-info">
+                    <h3>BMW M5</h3>
+                    <p>Motor: 4.4L V8</p>
+                    <p>Putere: 625 CP</p>
+                    <p>Tip: Sedan sport</p>
+                    <button onclick="showDetails('BMW M5')">Detalii</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="assets/img/mercedes.jpg" alt="Automobil Mercedes-Benz">
+                <div class="car-info">
+                    <h3>Mercedes-Benz E-Class</h3>
+                    <p>Motor: 3.0L</p>
+                    <p>Putere: 367 CP</p>
+                    <p>Tip: Sedan premium</p>
+                    <button onclick="showDetails('Mercedes-Benz E-Class')">Detalii</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="assets/img/audi.jpg" alt="Automobil Audi">
+                <div class="car-info">
+                    <h3>Audi RS7</h3>
+                    <p>Motor: 4.0L V8</p>
+                    <p>Putere: 600 CP</p>
+                    <p>Tip: Sportback</p>
+                    <button onclick="showDetails('Audi RS7')">Detalii</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Despre AutoWorld</h2>
+            <p>
+                AutoWorld este o platformă dedicată pasionaților de automobile.
+                Aici poți descoperi modele moderne, caracteristici tehnice
+                și informații despre cele mai cunoscute mărci auto.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact container" id="contact">
+        <h2>Contactează-ne</h2>
+        <p class="section-description">Trimite-ne un mesaj.</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Numele tău" required>
+            <input type="email" id="email" placeholder="Email-ul tău" required>
+            <textarea id="message" placeholder="Mesajul tău" required></textarea>
+            <button type="submit">Trimite mesajul</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AutoWorld. Toate drepturile rezervate.</p>
+        <p>Proiect realizat pentru laboratorul de informatică.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
