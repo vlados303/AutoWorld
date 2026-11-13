@@ -245,3 +245,11 @@ footer {
         width: 92%;
     }
 }
+
+.car-card {
+    border: 2px solid #e63946;
+}
+
+.car-card:hover {
+    box-shadow: 0 8px 20px rgba(230, 57, 70, 0.25);
+}
