@@ -9,7 +9,10 @@
 html {
     scroll-behavior: smooth;
 }
-
+.logo {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
