@@ -21,3 +21,10 @@ Luca Vladislav
 
 ## Versiune
 1.0
+
+## Caracteristicile proiectului
+
+- Prezentarea automobilelor.
+- Catalog cu diferite mărci auto.
+- Informații tehnice despre automobile.
+- Formular pentru contact.
