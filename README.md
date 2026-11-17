@@ -1,6 +1,6 @@
 
 # AutoWorld
-Versiune conflict: BMW
+Versiune conflict: Mercedes
 AutoWorld este o platformă web dedicată automobilelor.
 
 ## Tehnologii utilizate
