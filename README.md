@@ -1,5 +1,6 @@
 
 # AutoWorld
+Versiune conflict: initial
 
 AutoWorld este o platformă web dedicată automobilelor.
 
