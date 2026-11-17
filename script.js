@@ -17,3 +17,18 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         document.getElementById("contactForm").reset();
     }
 });
+
+document.getElementById("searchInput").addEventListener("input", function() {
+    let searchValue = this.value.toLowerCase();
+    let cars = document.querySelectorAll(".car-card");
+
+    cars.forEach(function(car) {
+        let carName = car.querySelector("h3").textContent.toLowerCase();
+
+        if (carName.includes(searchValue)) {
+            car.style.display = "block";
+        } else {
+            car.style.display = "none";
+        }
+    });
+});
