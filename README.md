@@ -28,3 +28,5 @@ Luca Vladislav
 - Catalog cu diferite mărci auto.
 - Informații tehnice despre automobile.
 - Formular pentru contact.
+
+- Căutarea automobilelor după marcă și model.
