@@ -1,0 +1,22 @@
+
+# Fisiere temporare
+*.tmp
+*.temp
+*.bak
+
+# Fisiere log
+*.log
+
+# Configurari locale
+.env
+config.local.php
+
+# Directoare generate automat
+node_modules/
+vendor/
+cache/
+logs/
+
+# Fisiere sistem
+.DS_Store
+Thumbs.db
