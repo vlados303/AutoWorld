@@ -253,3 +253,20 @@ footer {
 .car-card:hover {
     box-shadow: 0 8px 20px rgba(230, 57, 70, 0.25);
 }
+.search-box {
+    max-width: 500px;
+    margin: 0 auto 35px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e63946;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 8px rgba(230, 57, 70, 0.3);
+}
